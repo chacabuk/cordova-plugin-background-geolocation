@@ -2,7 +2,7 @@
 
 ### [3.1.0] - 2019-09-24
 ### Fixed
-- fix package scope
+- fix package scope.
 - Android fix RejectedExecutionException
 - Android add stop guard
 
