@@ -10,7 +10,7 @@
 //  https://github.com/christocracy/cordova-plugin-background-geolocation
 
 #import <UserNotifications/UserNotifications.h>
-// #import <Cordova/CDVPlugin.h>
+#import <Cordova/CDVPlugin.h>
 #import "MAURProviderDelegate.h"
 
 @interface CDVBackgroundGeolocation : CDVPlugin <MAURProviderDelegate, UNUserNotificationCenterDelegate>
