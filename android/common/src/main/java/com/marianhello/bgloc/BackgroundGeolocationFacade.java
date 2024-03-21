@@ -225,7 +225,7 @@ public class BackgroundGeolocationFacade {
                 startBackgroundService();
             }
 
-            @Override
+            //@Override
             public void onPermissionDenied() {
                 logger.info("User denied requested permissions");
                 if (mDelegate != null) {

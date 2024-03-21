@@ -57,7 +57,7 @@ public class LocationManager {
                 }
             }
 
-            @Override
+            //@Override
             public void onPermissionDenied() {
                 promise.setError(new PermissionDeniedException());
             }
