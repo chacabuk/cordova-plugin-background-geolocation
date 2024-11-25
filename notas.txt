@@ -1,0 +1,5 @@
+C:\Sistemas\plugins\cordova-plugin-background-geolocation\android\gradle\wrapper\gradle-wrapper.properties
+
+
+distributionUrl=https\://services.gradle.org/distributions/gradle-5.1.1-all.zip
+distributionUrl=https\://services.gradle.org/distributions/gradle-8.9-bin.zip
