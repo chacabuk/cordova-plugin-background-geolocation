@@ -1,5 +1,61 @@
+
+Me propuso actualizar el gradle
 C:\Sistemas\plugins\cordova-plugin-background-geolocation\android\gradle\wrapper\gradle-wrapper.properties
-
-
 distributionUrl=https\://services.gradle.org/distributions/gradle-5.1.1-all.zip
 distributionUrl=https\://services.gradle.org/distributions/gradle-8.9-bin.zip
+
+------------------------------------------------------------
+#25/11/24: Cambios: 3.1.8
+
+
+    https://developer.android.com/reference/androidx/annotation/package-summary
+
+    import android.support.annotation.VisibleForTesting;
+    import androidx.annotation.VisibleForTesting;
+
+    import android.support.annotation.NonNull;
+    import androidx.annotation.NonNull;
+
+    import android.support.annotation.Nullable;
+    import androidx.annotation.Nullable;
+
+    import android.support.annotation.IntDef;
+    import androidx.annotation.IntDef;
+
+    import android.support.annotation.RequiresApi;
+    import androidx.annotation.RequiresApi;
+
+    ------------------------------------
+
+    https://developer.android.com/reference/kotlin/androidx/core/app/package-summary
+
+    import android.support.v4.app.NotificationCompat;
+    import androidx.core.app.NotificationCompat;
+
+    ------------------------------------
+
+    OJO: https://developer.android.com/jetpack/androidx/releases/localbroadcastmanager?hl=es-419
+    https://stackoverflow.com/questions/51097099/can-not-resolve-import-localbroadcastmanager-on-statement-android-support-v4-con
+
+    import android.support.v4.content.LocalBroadcastManager;
+    import androidx.localbroadcastmanager.content.LocalBroadcastManager;
+
+
+    ------------------------------------
+
+    https://developer.android.com/reference/androidx/core/content/ContextCompat
+
+    import android.support.v4.content.ContextCompat;
+    import androidx.core.content.ContextCompat;
+
+
+    ------------------------------------
+
+    No lo encuentro..
+
+    import android.support.v4.util.TimeUtils;
+    import androidx.core.util.TimeUtils;
+
+------------------------------------------------------------
+
+
