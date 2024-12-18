@@ -59,3 +59,9 @@ distributionUrl=https\://services.gradle.org/distributions/gradle-8.9-bin.zip
 ------------------------------------------------------------
 
 
+#18/12/24: Cambios: 3.1.9
+
+Quito los permisos de plugin.xml que no son necesarios.
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION" />
+------------------------------------------------------------
