@@ -3,7 +3,7 @@
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
         id="cordova-plugin-background-geolocation"
-        version="3.1.11">
+        version="3.1.12">
     <name>CDVBackgroundGeolocation</name>
     <description>Cordova Background Geolocation Plugin</description>
     <license>Apache-2.0</license>
@@ -25,7 +25,7 @@
     <!-- android -->
     <platform name="android">
         <info>
-            ANDROID PLUGIN VERSION: 3.1.11
+            ANDROID @CHACABUK/CORDOVA-PLUGIN-BACKGROUND-GEOLOCATION VERSION: 3.1.12
         </info>
         <preference name="GOOGLE_PLAY_SERVICES_VERSION" default="11+"/>
         <preference name="ANDROID_SUPPORT_LIBRARY_VERSION" default="26+"/>
@@ -187,6 +187,7 @@
             <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
             <uses-permission android:name="android.permission.INTERNET" />
             <uses-permission android:name="android.permission.WAKE_LOCK" />
+            <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
             <uses-permission android:name="android.hardware.location" />
         </config-file>
         <config-file target="res/xml/config.xml" parent="/*">
@@ -224,7 +225,7 @@
 
     <platform name="ios">
         <info>
-            IOS PLUGIN VERSION: 3.1.11
+            IOS @CHACABUK/CORDOVA-PLUGIN-BACKGROUND-GEOLOCATION VERSION: 3.1.12
         </info>
         <!-- required background modes:  App registers for location updates -->
         <preference name="ALWAYS_USAGE_DESCRIPTION" default="This app always requires location tracking" />

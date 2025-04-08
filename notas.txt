@@ -78,3 +78,17 @@ distributionUrl=https\://services.gradle.org/distributions/gradle-8.9-bin.zip
     Agrego <info> en plugin.xml
 
 ------------------------------------------------------------
+
+#08/04/2025: Cambios 3.1.12 agrego nuevamente permission.FOREGROUND_SERVICE
+
+    Agrego en plugin.xml
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    Y en android\common\src\main\AndroidManifest.xml
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" /> --> Este estaba en plugin.xml pero no aca
+
+    NOTA: ACCESS_BACKGROUND_LOCATION: No es necesario. 
+    Si la app muestra una notificacion, la ubicacion se esta obteniendo en primer plano.
+
+------------------------------------------------------------
