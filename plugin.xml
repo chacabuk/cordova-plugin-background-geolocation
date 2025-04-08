@@ -3,7 +3,7 @@
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
         id="cordova-plugin-background-geolocation"
-        version="3.1.10">
+        version="3.1.11">
     <name>CDVBackgroundGeolocation</name>
     <description>Cordova Background Geolocation Plugin</description>
     <license>Apache-2.0</license>
@@ -24,6 +24,9 @@
 
     <!-- android -->
     <platform name="android">
+        <info>
+            ANDROID PLUGIN VERSION: 3.1.11
+        </info>
         <preference name="GOOGLE_PLAY_SERVICES_VERSION" default="11+"/>
         <preference name="ANDROID_SUPPORT_LIBRARY_VERSION" default="26+"/>
         <preference name="ICON" default="@mipmap/icon" />
@@ -220,6 +223,9 @@
     </platform>
 
     <platform name="ios">
+        <info>
+            IOS PLUGIN VERSION: 3.1.11
+        </info>
         <!-- required background modes:  App registers for location updates -->
         <preference name="ALWAYS_USAGE_DESCRIPTION" default="This app always requires location tracking" />
         <preference name="MOTION_USAGE_DESCRIPTION" default="This app requires motion detection" />

@@ -68,4 +68,13 @@ distributionUrl=https\://services.gradle.org/distributions/gradle-8.9-bin.zip
     y tambien de permisos de android\common\src\main\AndroidManifest.xml
         <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
 
+    FOREGROUND_SERVICE_LOCATION: este no es necesario. Si lo pongo google me pide un video que muestre como lo uso
+    FOREGROUND_SERVICE: este lo agrega tambien OenSignal.. asi que puede quedarse porque no parece ser un permiso especial que necesite video.
+
+------------------------------------------------------------
+
+#08/04/2025: Cambios 3.1.11
+
+    Agrego <info> en plugin.xml
+
 ------------------------------------------------------------
